@@ -1,0 +1,14 @@
+Note App Backend 
+Documentation -
+
+Installed -
+npm init -y - node.js
+npm i - nodemon mongoose express cors jsonwebtoken dotenv bcrypt
+
+Adding script 
+In package.json - "server": "nodemon index.js"
+
+Creating files -
+index.js
+db.js - connecting mongodb database using url
+.env - creating  environment variables (mongo url)
